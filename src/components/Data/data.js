@@ -277,7 +277,7 @@ export const recent = [
     desc: "E-Tutor is an education, courses, and online (LMS) learning management system Figma template designed for people who want to start teaching online, create an LMS etc.",
     btn: "View case study",
     bgColor: "img7",
-    Link: "/skiwit",
+    Link: "/winner",
   },
 
   {

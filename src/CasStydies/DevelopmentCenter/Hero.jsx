@@ -1,9 +1,11 @@
 import React from 'react'
 import logo from '../DevelopmentCenter/Assets/image 1.png'
 import side from '../DevelopmentCenter/Assets/Frame 1000009910.png'
+import { ScrollRestoration } from 'react-router-dom'
 const Hero = () => {
   return (
     <div className=' md:pt-7 pt-7 mx-4 md:mx-24'>
+      <ScrollRestoration />
         <div className='  md:flex block justify-between '>
         <div className=' flex flex-col gap-8 justify-center'>
             <img className=' w-[92px] h-[93px]' src={logo} alt="" />

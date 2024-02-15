@@ -10,7 +10,7 @@ const Followers = () => {
         </div>
 
         <div className=' md:w-[70%] pt-24'>
-            <h1 className=' md:text-[41px] text-[27px] font-bold text-[#0D7592] leading-[3rem]'>Verified/Background Checked Caregivers</h1>
+            <h1 className=' md:text-[41px]  text-[27px] font-bold text-[#0D7592] leading-[3rem]'>Verified/Background Checked Caregivers</h1>
             <p className=' md:text-[17px] text-[10px] font-normal text-[#606060] mt-5'>Access Caregivers who are thoroughly verified and background checked in National Criminal Database and Sex Offender Registry</p>
         </div>
     </div>

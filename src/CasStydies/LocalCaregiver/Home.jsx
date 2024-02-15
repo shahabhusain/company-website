@@ -3,18 +3,22 @@ import logo from "../../CasStydies/LocalCaregiver/Assets/Logo (2).png";
 import main from "../../CasStydies/LocalCaregiver/Assets/Group 7772.png";
 import btn from "../../CasStydies/LocalCaregiver/Assets/Button.png";
 import btn1 from "../../CasStydies/LocalCaregiver/Assets/Button (1).png";
+import { ScrollRestoration } from "react-router-dom";
 const Home = () => {
   return (
-    <div className=" back13">
-      <div className=" pb-[1555px] pt-24">
+    <div className=" local">
+      <div className="pt-24">
+      <ScrollRestoration />
         <div className=" md:flex block  justify-between items-center gap-24 mx-24 md:pt-0 pt-16 ">
           <div className=" ">
             <img className=" w-[131px]" src={logo} alt="logo" />
-            <p className=" rounded-md mt-4 py-2 px-5 md:text-[35px] text-[29px] font-[500] text-[#0D7592]  border-[2px] border-[#EF6A1F]">
+          <div>
+              <p className=" rounded-md mt-4 py-2 px-5 md:text-[35px] text-[29px] font-[500] text-[#0D7592]  border-[2px] border-[#EF6A1F]">
               Case Study
             </p>
+          </div>
             <div className="">
-              <h1 className=" md:text-[37px] text-[27px] font-bold text-black bak py-2 px-3 md:w-80  pt-6">
+              <h1 className=" 2xl:text-[47px] md:text-[37px] text-[27px] font-bold text-black bak py-2 px-3 2xl:w-full md:w-80  pt-6">
                 <p className=" text-[#0D7592]">local caregiver</p>
                 <p className=" text-[#000000] font-semibold">Mobile App</p>
               </h1>

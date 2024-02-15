@@ -6,7 +6,7 @@ import side4 from "../../CasStydies/LocalCaregiver/Assets/side2.png";
 import side5 from "../../CasStydies/LocalCaregiver/Assets/side1.png";
 const Technology = () => {
   return (
-    <div className=" absolute 2xl:top-[877px] md:top-[672px] top-[999px] ">
+    <div className=" ">
       <div className=" md:mx-32 mx-4 flex flex-col gap-4 pt-6  pb-7 px-7 rounded-[20px] bg-white">
         <h1 className=" text-[#000] md:text-[37px] sm:text-[37px] text-[27px] font-bold">
           Technology{" "}

@@ -1,9 +1,11 @@
 import React from 'react'
 import logo from '../Omni/Assets/Omni Logo.jpg'
 import side from '../Omni/Assets/Group 973.png'
+import { ScrollRestoration } from 'react-router-dom'
 const Hero = () => {
   return (
-    <div className=' md:pt-0 pt-7 bg-[#F8F8F8]'>
+    <div className=' md:pt-12 pt-7 bg-[#F8F8F8]'>
+      <ScrollRestoration />
         <div className='  md:flex block justify-between '>
         <div className=' flex flex-col gap-8 md:ml-24 mx-4 justify-center  md:relative md:bottom-16'>
             <img className=' w-[92px] h-[93px]' src={logo} alt="" />

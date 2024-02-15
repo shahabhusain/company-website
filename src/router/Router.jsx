@@ -30,7 +30,7 @@ export const router = createBrowserRouter(
       <Route path="/cheap" element={<Cheaps />} />
       <Route path="/develop" element={<Development />} />
       <Route path="/movla12" element={<Movla />} />
-      <Route path="/onmi" element={<Omni />} />
+      <Route path="/omni" element={<Omni />} />
 
     </Route>
 

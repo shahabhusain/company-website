@@ -3,9 +3,11 @@ import logo from "../Assets/iPhone 14 Pro Space Black Mockup label.png";
 import main from "../Assets/Group 342.png";
 import btn from "../Assets/Button.png";
 import btn1 from "../Assets/Button (1).png";
+import { ScrollRestoration } from "react-router-dom";
 const Home = () => {
   return (
     <div className=" pb-80">
+      <ScrollRestoration />
       <div className=" md:flex block  justify-between items-center gap-24 mx-24 md:pt-0 pt-16 ">
         <div className=" ">
           <img className=" w-[131px]" src={logo} alt="logo" />

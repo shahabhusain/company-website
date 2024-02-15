@@ -3,9 +3,11 @@ import logo from "../Asmid/Assets/AskMedP1 2.png";
 import side from "../Asmid/Assets/Group 973.png";
 import btn from "../Asmid/Assets/App Store Black.png";
 import btn1 from "../Asmid/Assets/Google Play Black.png";
+import { ScrollRestoration } from "react-router-dom";
 const Hero = () => {
   return (
-    <div className=" bg-[#6DA8FF] pb-32">
+    <div className=" bg-[#6DA8FF] pb-32 pt-12">
+      <ScrollRestoration />
       <div className=" md:pt-7 pt-7 mx-4 md:mx-24">
         <div className="  md:flex block justify-between gap-16 ">
           <div className=" flex flex-col gap-6 justify-center md:w-[50%]">

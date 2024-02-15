@@ -2,7 +2,7 @@ import React from "react";
 import side from "../../CasStydies/LocalCaregiver/Assets/iPhone 15 Pro Portrait Left Mockup.png";
 const Project = () => {
   return (
-    <div className=" md:mx-44 mx-4 absolute top-[1225px]">
+    <div className=" md:mx-44 mx-4 mt-24 ">
       <div className=" md:flex block justify-between">
         <div className=" md:w-[25%] w-[50%] mx-auto">
           <img className="" src={side} alt="" />

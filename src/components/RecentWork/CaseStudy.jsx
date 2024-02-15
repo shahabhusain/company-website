@@ -21,6 +21,10 @@ const CaseStudy = () => {
               ? "bg-[#FFF9EF]"
               : item.bgColor === "img6"
               ? "bg-[#F4F8FF]"
+              : item.bgColor === "img7"
+              ? "bg-[#FBFBFB]"
+              : item.bgColor === "img8"
+              ? "bg-[#F3F9FF]"
               : ""
           } md:flex block items-center rounded-[20px] justify-between  md:mx-24 2xl:mx-32 pt-12  mx-4  mt-24`}
         >
