@@ -8,7 +8,8 @@ const Footer = () => {
   return (
     <div className="bg-[#F8F9FA] py-16 mt-40">
       <div className=" md:flex block items-center md:justify-between md:mx-24 mx-4">
-        <img className="md:mx-0 mx-auto" src={footer} alt="" />
+     <div className=" flex items-center gap-8">
+     <img className="md:mx-0 mx-auto" src={footer} alt="" />
         <div className=" flex flex-col md:items-start items-center justify-center">
           <p className=" text-[24px] font-semibold py-3">Head Office</p>
           <p className=" text-[14px] font-normal text-center">
@@ -16,23 +17,12 @@ const Footer = () => {
             Pakistan
           </p>
         </div>
+     </div>
         <div className=" flex flex-col md:items-start items-center justify-center">
           <h1 className=" text-[24px] font-semibold py-3">Social Links</h1>
-          <ul className=" md:flex sm:flex block gap-4 items-center">
-            <a className=" flex items-center gap-3" href="/">
-              Facebook <img src={face} alt="" />
-            </a>
-            <a className=" flex items-center gap-3" href="/">
-              Twitter <img src={twit} alt="" />
-            </a>
-            <a className=" flex items-center gap-3" href="/">
-              Instagram <img src={insta} alt="" />
-            </a>
-
-            <a className=" flex items-center gap-3" href="/">
+            <a className=" flex items-center gap-3" href="https://www.linkedin.com/company/apptex/mycompany/">
               Linkedin <img className=" w-[22px]" src={link} alt="" />
             </a>
-          </ul>
         </div>
       </div>
     </div>

@@ -5,8 +5,8 @@ const Contact = () => {
     <div id="/contact" className=" md:flex block  justify-between md:mx-24 mx-4 mt-32">
       {/* left */}
       <div className=" md:w-[45%]">
-        <h1 className=" text-[40px] font-bold">
-          Have Something To Ask? Get A Free Quote Now!
+        <h1 className=" flex flex-col  text-[40px] font-bold">
+          Have Something To Ask? <span>Get A Free Quote Now!</span>
         </h1>
         <p className=" text-[#777986] text-[20px] font-medium mt-7">
           Reach out to us and let's start a conversation. We're here to answer

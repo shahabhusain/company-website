@@ -26,10 +26,9 @@ const Hero = () => {
             <p className=" text-[#ffffff] md:text-[20px] text-[14px] font-[400]">
             AskMed is an all-encompassing health management application crafted to meet the needs of both users and administrators.
             </p>
-            <div className=" flex items-center gap-4">
-              <a href="/"><img src={btn} alt="" /></a>
-              <a href="/"><img src={btn1} alt="" /></a>
-            </div>
+            <h1 className=" text-[#5b5b5b] md:text-[25px] sm:text-[25px] text-[25px] font-[600] ">
+              Will be available soon
+            </h1>
           </div>
           <img
             className=" md:max-w-[50%] object-contain md:pt-0 pt-10"
