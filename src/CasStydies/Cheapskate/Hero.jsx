@@ -4,7 +4,7 @@ import side from "../Cheapskate/Assets/Frame 1000002609.png";
 import { ScrollRestoration } from "react-router-dom";
 const Hero = () => {
   return (
-    <div className=" balo pb-32 pt-12">
+    <div className=" balo pb-32 pt-20">
       <ScrollRestoration />
       <div className=" md:pt-7 pt-7 mx-4 md:mx-24">
         <div className="  md:flex block justify-between gap-16 ">
