@@ -2,7 +2,7 @@ import React from 'react'
 import side from '../Assets/iPhone 12 Pro Max.png'
 const Project = () => {
   return (
-    <div className=' md:mx-44 mx-4 pt-[25rem]'>
+    <div className=' md:mx-44 mx-4 md:pt-[25rem] pt-[70rem] '>
       <div className=' md:flex block justify-between'>
         <div className=' md:w-[30%] w-[50%] mx-auto'>
         <img className='' src={side} alt="" />

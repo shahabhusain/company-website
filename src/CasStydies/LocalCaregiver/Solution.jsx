@@ -46,7 +46,7 @@ const Solution = () => {
 
     
     <div className=' flex gap-4'>
-        <h1 className=' text-[#0D7592] text-[20px] font-medium'>3</h1>
+        <h1 className=' text-[#0D7592] text-[20px] font-medium'>5</h1>
         <div>
             <h2 className=' text-[#0D7592] text-[20px] font-medium'>Regular Updates and New Features</h2>
             <p className=' text-[#606060] text-[17px] font-normal'>To keep users engaged, Development Central should regularly update the application with new features and improvements. Listening to user feedback and implementing relevant changes will help maintain interest and attract new users.</p>

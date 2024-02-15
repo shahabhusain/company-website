@@ -12,7 +12,7 @@ const Technology = () => {
           Used
         </span>
       </h1>
-      <div className=" grid md:grid-cols-5 sm:grid-cols-2 grid-cols-1 md:pt-16 gap-4 md:mx-0 mx-auto ">
+      <div className=" grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 md:pt-16 gap-4 md:mx-0 mx-auto ">
         <div className=" flex flex-col items-center justify-center gap-3">
           <img src={side1} alt="" />
           <h1 className=" text-[#22222A] md:text-[22px] text-[15px] font-[600] ">

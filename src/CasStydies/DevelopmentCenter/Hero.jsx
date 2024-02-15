@@ -1,10 +1,12 @@
 import React from 'react'
 import logo from '../DevelopmentCenter/Assets/image 1.png'
 import side from '../DevelopmentCenter/Assets/Frame 1000009910.png'
+import btn from '../DevelopmentCenter/Assets/Button.png'
+import btn1 from '../DevelopmentCenter/Assets/Button (1).png'
 import { ScrollRestoration } from 'react-router-dom'
 const Hero = () => {
   return (
-    <div className=' md:pt-16 pt-7 mx-4 md:mx-24'>
+    <div className=' md:pt-12 pt-20 mx-4 md:mx-24'>
       <ScrollRestoration />
         <div className='  md:flex block justify-between '>
         <div className=' flex flex-col gap-8 justify-center'>
@@ -17,6 +19,10 @@ const Hero = () => {
             <h2 className=' md:text-[45px] sm:text-[35px] text-[25px] font-[600]'>Mobile App</h2>
             </div>
             <p className=' text-[#272727] md:text-[20px] text-[14px] font-[400]'>Introducing "Development Centre" – Your Gateway to Personalized Learning for Your Child!</p>
+            <div className=" flex items-center gap-3 md:w-[400px] w-[255px] mt-4">
+        <a href="  https://apps.apple.com/pk/app/development-central/id1643959090"><img src={btn} alt="" /></a>
+        <a href=" https://play.google.com/store/apps/details?id=com.activitycentral"><img src={btn1} alt="" /></a>
+      </div>
         </div>
           <img className=' md:max-w-[555px] md:pt-0 pt-10' src={side} alt="" />
     </div>

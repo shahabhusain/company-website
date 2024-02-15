@@ -24,8 +24,7 @@ const Hero = () => {
             </div>
 
             <p className=" text-[#ffffff] md:text-[20px] text-[14px] font-[400]">
-              Introducing the Pageant Prodigy app, your ultimate companion for
-              navigating the world of pageantry.
+            AskMed is an all-encompassing health management application crafted to meet the needs of both users and administrators.
             </p>
             <div className=" flex items-center gap-4">
               <a href="/"><img src={btn} alt="" /></a>

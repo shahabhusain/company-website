@@ -25,7 +25,7 @@ const Technology = () => {
         <div className=" flex flex-col items-center justify-center gap-3">
           <img src={side3} alt="" />
           <h1 className=" text-[#22222A] md:text-[22px] text-[15px] font-[600] whitespace-nowrap ">
-            Google Maps API{" "}
+            React
           </h1>
           <p className=" text-[#606060] text-[13px] font-[500] text-center">
           Developed a responsive and dynamic web application using React 
