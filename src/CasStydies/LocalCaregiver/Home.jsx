@@ -9,7 +9,7 @@ const Home = () => {
     <div className=" local">
       <div className="pt-24">
       <ScrollRestoration />
-        <div className=" md:flex block  justify-between items-center gap-24 mx-24 md:pt-0 pt-16 ">
+        <div className=" md:flex block  justify-between items-center gap-24 md:mx-24 mx-4 md:pt-0 pt-16 ">
           <div className=" ">
             <img className=" w-[131px]" src={logo} alt="logo" />
           <div>

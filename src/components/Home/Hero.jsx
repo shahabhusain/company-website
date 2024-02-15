@@ -52,7 +52,7 @@ const Hero = () => {
           better user experience, engagement, and smart technology in a single
           transformative solution.
         </motion.p>
-        <motion.div variants={FadeInUpAnimation} className=" flex gap-3 mt-6">
+        <motion.div variants={FadeInUpAnimation} className=" flex gap-3 pt-12">
           <button className=" bg-[#14A2F1] 2xl:py-4 2xl:px-8 py-2 px-4 hover:bg-[#4889ac] text-white">
             Get A Free Quote
           </button>
@@ -60,7 +60,7 @@ const Hero = () => {
             Learn More
           </button>
         </motion.div>
-        <motion.div variants={FadeInUpAnimation} className=" flex items-center lg:gap-20 gap-12 mt-6  ">
+        <motion.div variants={FadeInUpAnimation} className=" flex items-center lg:gap-20 gap-12 mt-24  ">
           <div className="">
             <h1 className=" text-[#14A2F1] 2xl:text-[42px] lg:text-[32px] text-[22px] font-[700]">
               <CountUp start={0} end={150} duration={2} delay={0} />+
