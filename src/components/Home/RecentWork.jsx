@@ -21,7 +21,7 @@ const RecentWork = () => {
               />
             </div>
             <div className="bg-[#F3F4F8]  py-7 px-6 flex flex-col gap-2 rounded-md">
-              <h1 className="text-[24px] font-semibold ">
+              <h1 className="text-[24px] font-semibold flex gap-2 items-center  ">
                 {item.title}
                 <span className="text-[14px] font-medium">{item.desc1}</span>
               </h1>
@@ -29,9 +29,9 @@ const RecentWork = () => {
                 {item.desc}
               </p>
               <div className="flex items-center gap-1 mt-4">
-                <button className="text-[#14A2F1] text-[20px] font-medium">
+                <Link to={item.link} className="text-[#14A2F1] text-[20px] font-medium">
                   {item.btn}
-                </button>
+                </Link>
                 <img src={arrow} alt="" />
               </div>
             </div>

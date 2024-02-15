@@ -21,7 +21,7 @@ const Technology = () => {
               flutter{" "}
             </h1>
             <p className=" text-[#606060] text-[13px] font-normal text-center">
-              local caregiver is built using the Flutter framework for cross-
+              Local caregiver is built using the Flutter framework for cross-
               platform mobile application development.
             </p>
           </div>

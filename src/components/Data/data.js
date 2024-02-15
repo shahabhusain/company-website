@@ -159,21 +159,25 @@ export const recentData = [
     desc1: "(Mobile & Web App)",
     desc: "Social Networking - Chat - Jobs Seeking - Health",
     btn: "View Case Study",
+    link: "/local",
   },
 
   {
     imgUer: img7,
     title: "Mvuala",
+    desc1: "(Mobile & Web App)",
     desc: "Social - Chat - Entertainment - Video Streaming",
     btn: "View Case Study",
+    link: "/movla12",
   },
 
   {
     imgUer: img8,
-    title: "Local Cargivers ",
+    title: "Cheapskate",
     desc1: "(Mobile & Web App)",
     desc: "Social Networking - Chat - Jobs Seeking - Health",
     btn: "View Case Study",
+    link: "/cheap",
   },
 ];
 
