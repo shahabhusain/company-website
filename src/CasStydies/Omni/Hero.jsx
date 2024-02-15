@@ -1,10 +1,12 @@
 import React from 'react'
 import logo from '../Omni/Assets/Omni Logo.jpg'
 import side from '../Omni/Assets/Group 973.png'
+import btn from '../Omni/Assets/Button.png'
+import btn1 from '../Omni/Assets/Button (1).png'
 import { ScrollRestoration } from 'react-router-dom'
 const Hero = () => {
   return (
-    <div className=' md:pt-12 pt-7 bg-[#F8F8F8]'>
+    <div className=' md:pt-12 pt-20 bg-[#F8F8F8]'>
       <ScrollRestoration />
         <div className='  md:flex block justify-between '>
         <div className=' flex flex-col gap-8 md:ml-24 mx-4 justify-center  md:relative md:bottom-16'>
@@ -17,6 +19,10 @@ const Hero = () => {
             <h2 className=' md:text-[45px] sm:text-[35px] text-[25px] font-[600]'>Mobile App</h2>
             </div>
             <p className=' text-[#272727] md:text-[20px] text-[14px] font-[400]'>The Barber App streamlines bookings, services, and product sales for barbers, offering customers a seamless experience in one platform.</p>
+            <div className=" flex items-center gap-3 md:w-[400px] w-[255px]">
+        <a href="https://apps.apple.com/us/app/omni-connects/id6444658082"><img src={btn} alt="" /></a>
+        <a href=" https://play.google.com/store/apps/details?id=com.omni.main"><img src={btn1} alt="" /></a>
+      </div>
         </div>
           <img className=' md:max-w-[795px] md:pt-0 pt-10' src={side} alt="" />
     </div>

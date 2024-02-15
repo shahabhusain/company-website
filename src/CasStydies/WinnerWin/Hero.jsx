@@ -1,6 +1,8 @@
 import React from "react";
 import logo from "../WinnerWin/Assets/Logo Black.png";
 import side from "../WinnerWin/Assets/Group 7772.png";
+import btn from '../WinnerWin/Assets/Button.png'
+import btn1 from '../WinnerWin/Assets/Button (1).png'
 import { ScrollRestoration } from "react-router-dom";
 const Hero = () => {
   return (
@@ -21,10 +23,14 @@ const Hero = () => {
             </div>
             <div></div>
             <p className=" text-[#d3d3d3] md:text-[20px] text-[14px] font-[400]">
-              winners win mobile app user case study Introducing the Pageant
-              Prodigy app, your ultimate companion for navigating the world of
-              pageantry.
+              "Winners Win" is a comprehensive and motivational gym app designed
+              to empower individuals on their fitness journey, regardless of
+              their experience level.
             </p>
+            <div className=" flex items-center gap-3 md:w-[400px] w-[255px] mt-4">
+        <a href="   https://apps.apple.com/us/app/winners-win/id6449588127"><img src={btn} alt="" /></a>
+        <a href="#"><img src={btn1} alt="" /></a>
+      </div>
           </div>
           <img className=" md:max-w-[555px] md:pt-0 pt-10" src={side} alt="" />
         </div>

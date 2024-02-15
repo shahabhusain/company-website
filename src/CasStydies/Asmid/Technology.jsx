@@ -13,33 +13,25 @@ const Technology = () => {
           Used
         </span>
       </h1>
-      <p>For the Development Center project, several technologies are used to create a seamless and robust experience for users. These technologies include Flutter,Stripe , Firebase , Adobe XD and Google Map API. Let’s explore each of these technologies and their respective roles in the project:</p>
-      <div className=" grid md:grid-cols-5 sm:grid-cols-2 grid-cols-1 md:pt-16 gap-4 md:mx-0 mx-auto ">
+      <p>For the Askmid project, several technologies are used to create a seamless and robust experience for users. These technologies include </p>
+      <div className=" grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 md:pt-16 gap-4 md:mx-0 mx-auto ">
         <div className=" flex flex-col items-center justify-center gap-3">
           <img src={side1} alt="" />
           <h1 className=" text-[#22222A] md:text-[22px] text-[15px] font-[600] ">
             Figma
           </h1>
           <p className=" text-[#606060] text-[13px] font-[500] text-center">
-          Design tools figma has been used to create and prototype the user interface for Development Central.
+          Design tools figma has been used to create and prototype the user interface.
           </p>
         </div>
-        <div className=" flex flex-col items-center justify-center gap-3">
-          <img src={side2} alt="" />
-          <h1 className=" text-[#22222A] md:text-[22px] text-[15px] font-[600] ">
-            Stripe{" "}
-          </h1>
-          <p className=" text-[#606060] text-[13px] font-[500] text-center">
-          For handling payments within the app, payment gateways like Stripe aire integrated.
-          </p>
-        </div>
+       
         <div className=" flex flex-col items-center justify-center gap-3">
           <img src={side3} alt="" />
           <h1 className=" text-[#22222A] md:text-[22px] text-[15px] font-[600] whitespace-nowrap ">
-            Google Maps API{" "}
+            cloud Function{" "}
           </h1>
           <p className=" text-[#606060] text-[13px] font-[500] text-center">
-          Development Central integrates Google Maps API for geolocation services and map displays.
+          Askmed integrates Google Maps API for geolocation services and map displays.
           </p>
         </div>
         <div className=" flex flex-col items-center justify-center gap-3">
@@ -57,7 +49,7 @@ const Technology = () => {
             flutter{" "}
           </h1>
           <p className=" text-[#606060] text-[13px] font-[500] text-center">
-          Development Central is built using the Flutter framework for cross- platform mobile application development.
+          For the Askmid project, several technologies are used to create a seamless and robust experience for users. These technologies include 
           </p>
         </div>
       </div>

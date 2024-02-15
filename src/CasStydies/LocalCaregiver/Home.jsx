@@ -23,18 +23,10 @@ const Home = () => {
                 <p className=" text-[#000000] font-semibold">Mobile App</p>
               </h1>
             </div>
-            <div className=" flex items-center gap-5 mt-6">
-              <img
-                className=" md:w-[200px] w-[127px] h-[53px] object-cover rounded-md"
-                src={btn}
-                alt=""
-              />
-              <img
-                className=" md:w-[200px] w-[157px] h-[53px] object-cover rounded-md"
-                src={btn1}
-                alt=""
-              />
-            </div>
+            <div className=" flex items-center gap-3 md:w-[400px] w-[255px] mt-4">
+        <a href="   https://apps.apple.com/us/app/local-caregiver/id1642308796"><img src={btn} alt="" /></a>
+        <a href=" https://play.google.com/store/apps/details?id=com.localcaregiver.com"><img src={btn1} alt="" /></a>
+      </div>
             <p className="text-[#484444] font-normal text-[20px] mt-4">
               "Empowering Lives, Earning Smiles" Start Earning Money as an
               In-Home Caregiver!

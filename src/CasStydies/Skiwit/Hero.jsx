@@ -2,9 +2,11 @@ import React from "react";
 import logo from "../../CasStydies/Skiwit/Assets/image 16.png";
 import side from "../../CasStydies/Skiwit/Assets/Frame 1000009938.png";
 import { ScrollRestoration } from "react-router-dom";
+import btn from '../Skiwit/Assets/Button.png'
+import btn1 from '../Skiwit/Assets/Button (1).png'
 const Hero = () => {
   return (
-    <div className=" back12 pt-24">
+    <div className=" md:back12  pt-24">
       <ScrollRestoration />
       <div className=" md:pt-7 pt-7 mx-4 md:mx-24">
         <div className="  md:flex block justify-between gap-16 ">
@@ -22,14 +24,21 @@ const Hero = () => {
             <p className=" text-[#292929] md:text-[20px] text-[14px] font-[400]">
             Transform your skiing with personalized coaching from top Snowsports experts. Access world-class instructors for personalized feedback, revolutionizing your learning experience anytime, anywhere."
             </p>
+            <div className=" flex items-center gap-3 md:w-[400px] w-[255px]">
+        <a href="https://apps.apple.com/pk/app/skiwit/id1640661460"><img src={btn} alt="" /></a>
+        <a href="https://play.google.com/store/apps/details?id=com.yann.skiwit"><img src={btn1} alt="" /></a>
+      </div>
           </div>
           <img
             className=" md:max-w-[500px] object-contain md:pt-0 pt-10"
             src={side}
             alt=""
           />
+          
         </div>
+      
       </div>
+      
     </div>
   );
 };
