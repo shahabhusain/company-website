@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className=" md:flex block  justify-between md:mx-24 mx-4 mt-32">
+    <div id="/contact" className=" md:flex block  justify-between md:mx-24 mx-4 mt-32">
       {/* left */}
       <div className=" md:w-[45%]">
         <h1 className=" text-[40px] font-bold">

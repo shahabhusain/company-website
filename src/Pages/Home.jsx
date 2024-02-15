@@ -7,7 +7,6 @@ import RecentWork from "../components/Home/RecentWork";
 import Industries from "../components/Home/Industries";
 import Clients from "../components/Home/Clients";
 import Contact from "../components/Home/Contact";
-
 const Home = () => {
   return (
     <div className=" relative top-32">

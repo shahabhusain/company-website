@@ -8,7 +8,7 @@ const Link12 = () => {
         to="/contact"
         smooth={true}
         duration={500}
-        className="border-[2px] hover:bg-[#e3ecf1] border-[#14A2F1] text-[#14A2F1] py-2 px-4"
+        className="border-[2px] hover:bg-[#e3ecf1] cursor-pointer border-[#14A2F1] text-[#14A2F1] py-2 px-4"
       >
         Contact
       </Link>

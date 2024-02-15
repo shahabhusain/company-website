@@ -37,6 +37,11 @@ import img16 from "../../assets/svg/movla.svg";
 import img16logo from "../../assets/svg/movlalogo.svg";
 import img17 from "../../assets/svg/Askmid.svg";
 import img17logo from "../../assets/svg/Askmidlogo.svg";
+import img18 from "../../assets/svg/winner.svg";
+import img18logo from "../../assets/svg/winnerLogo.svg";
+import img19 from "../../assets/svg/askm.svg";
+import img19logo from "../../assets/svg/AskimidLogo.svg";
+
 
 // Industries
 import ind1 from "../../assets/svg/education.svg";
@@ -212,6 +217,7 @@ export const recent = [
     desc: "E-Tutor is an education, courses, and online (LMS) learning management system Figma template designed for people who want to start teaching online, create an LMS etc.",
     btn: "View case study",
     bgColor: "img1",
+    Link: "/local",
   },
 
   {
@@ -221,6 +227,7 @@ export const recent = [
     desc: "E-Tutor is an education, courses, and online (LMS) learning management system Figma template designed for people who want to start teaching online, create an LMS etc.",
     btn: "View case study",
     bgColor: "img2",
+    Link: "/omni",
   },
 
   {
@@ -230,6 +237,7 @@ export const recent = [
     desc: "E-Tutor is an education, courses, and online (LMS) learning management system Figma template designed for people who want to start teaching online, create an LMS etc.",
     btn: "View case study",
     bgColor: "img3",
+    Link: "/skiwit",
   },
 
   {
@@ -239,6 +247,7 @@ export const recent = [
     desc: "E-Tutor is an education, courses, and online (LMS) learning management system Figma template designed for people who want to start teaching online, create an LMS etc.",
     btn: "View case study",
     bgColor: "img4",
+    Link: "/develop",
   },
 
   {
@@ -248,6 +257,7 @@ export const recent = [
     desc: "E-Tutor is an education, courses, and online (LMS) learning management system Figma template designed for people who want to start teaching online, create an LMS etc.",
     btn: "View case study",
     bgColor: "img5",
+    Link: "/movla12",
   },
 
   {
@@ -257,5 +267,26 @@ export const recent = [
     desc: "E-Tutor is an education, courses, and online (LMS) learning management system Figma template designed for people who want to start teaching online, create an LMS etc.",
     btn: "View case study",
     bgColor: "img6",
+    Link: "/askmid",
+  },
+
+  {
+    imgUrl: img18,
+    logo: img18logo,
+    desc1: "Website/lms/Mobile App",
+    desc: "E-Tutor is an education, courses, and online (LMS) learning management system Figma template designed for people who want to start teaching online, create an LMS etc.",
+    btn: "View case study",
+    bgColor: "img7",
+    Link: "/skiwit",
+  },
+
+  {
+    imgUrl: img19,
+    logo: img19logo,
+    desc1: "Website/lms/Mobile App",
+    desc: "E-Tutor is an education, courses, and online (LMS) learning management system Figma template designed for people who want to start teaching online, create an LMS etc.",
+    btn: "View case study",
+    bgColor: "img8",
+    Link: "/cheap",
   },
 ];

@@ -39,7 +39,7 @@ const Clients = () => {
         <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
         <SwiperSlide>
             <div className=" md:flex block items-center justify-between  mt-12 ">
-              <img className=" 2xl:w-[1455px] w-[333px]" src={main} alt="" />
+              <img className=" 2xl:w-[1455px] md:w-[333px] w-[100%]" src={main} alt="" />
               <div className=" text-white">
                 <div className="bac 2xl:py-24 py-12 md:px-12 px-4">
                   <p className=" md:text-[24px] 2xl:text-[32px] text-[16px] font-semibold">
@@ -69,7 +69,7 @@ const Clients = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className=" md:flex block items-center justify-between  mt-12 ">
-              <img className=" 2xl:w-[1455px] w-[333px]" src={main} alt="" />
+              <img className=" 2xl:w-[1455px] md:w-[333px] w-[100%]" src={main} alt="" />
               <div className=" text-white">
                 <div className="bac 2xl:py-24 py-12 md:px-12 px-4">
                   <p className=" md:text-[24px] 2xl:text-[32px] text-[16px] font-semibold">
@@ -99,7 +99,7 @@ const Clients = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className=" md:flex block items-center justify-between  mt-12 ">
-              <img className=" 2xl:w-[1455px] w-[333px]" src={main} alt="" />
+              <img className=" 2xl:w-[1455px] md:w-[333px] w-[100%]" src={main} alt="" />
               <div className=" text-white">
                 <div className="bac 2xl:py-24 py-12 md:px-12 px-4">
                   <p className=" md:text-[24px] 2xl:text-[32px] text-[16px] font-semibold">
@@ -129,7 +129,7 @@ const Clients = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className=" md:flex block items-center justify-between  mt-12 ">
-              <img className=" 2xl:w-[1455px] w-[333px]" src={main} alt="" />
+              <img className=" 2xl:w-[1455px] md:w-[333px] w-[100%]" src={main} alt="" />
               <div className=" text-white">
                 <div className="bac 2xl:py-24 py-12 md:px-12 px-4">
                   <p className=" md:text-[24px] 2xl:text-[32px] text-[16px] font-semibold">

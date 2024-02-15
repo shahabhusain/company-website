@@ -17,7 +17,7 @@ const Industries = () => {
     },
   };
   return (
-    <div className=" bg-[#F8F9FA] w-full pb-20">
+    <div className=" bg-[#F8F9FA] w-full pb-20 mt-52">
       <motion.div initial='hidden' whileInView='show' variants={FadeInUpAnimation} className=" md:mx-24 mx-4 mt-32">
         <h1 className=" text-[40px] font-bold text-center py-12">
           Industries We Serve
