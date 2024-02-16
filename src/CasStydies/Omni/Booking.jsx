@@ -2,7 +2,7 @@ import React from "react";
 import side from "../Omni/Assets/Frame 1000009901.png";
 const Booking = () => {
   return (
-    <div className=" md:mx-44 mx-4 md:flex md:flex-row flex-col-reverse justify-between gap-7 pt-32">
+    <div className=" md:mx-44 mx-4 md:flex md:flex-row items-center flex-col-reverse justify-between gap-7 pt-32">
       <img className=" md:max-w-[500px]" src={side} alt="" />
       <div>
         <h1 className=" text-[#272727] md:text-[30px] sm:text-[30px] text-[20px] font-bold pt-7 md:pt-0">

@@ -3,7 +3,7 @@ import side from "../WinnerWin/Assets/Group 7771 (1).png";
 const Booking = () => {
   return (
     <div className=" md:mx-44 mx-4 pt-32">
-      <div className="md:flex block justify-between">
+      <div className="md:flex block justify-between items-center">
         <div className=" md:w-[50%] w-[70%] mx-auto">
           <img src={side} alt="" />
         </div>

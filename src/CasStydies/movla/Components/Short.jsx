@@ -2,8 +2,8 @@ import React from "react";
 import side from "../Assets/Group 344.png";
 const Short = () => {
   return (
-    <div className=" md:flex block pt-24 gap-12 justify-between md:mx-24 mx-4">
-      <div className=" md:w-[70%] pt-24">
+    <div className=" md:flex block pt-24 gap-12 justify-between md:mx-24 mx-4 items-center">
+      <div className=" md:w-[70%]">
         <h1 className=" md:text-[41px] text-[27px] font-bold text-[#000]">
           <span className=" text-[#EDBD57]">Short Video </span> Content Creation
         </h1>
