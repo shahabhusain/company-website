@@ -1,6 +1,6 @@
 import React from "react";
 import { recent } from "../Data/data";
-import arrow from '../../assets/svg/Arrow right.svg'
+import arrow from "../../assets/svg/Arrow right.svg";
 import { Link } from "react-router-dom";
 const CaseStudy = () => {
   return (
@@ -38,7 +38,7 @@ const CaseStudy = () => {
             </p>
             <div className=" flex items-center gap-2 text-[20px] font-medium mt-5">
               <Link to={item.Link}>{item.btn}</Link>
-              <img src={arrow} alt="" />
+              <img className="" src={arrow} alt="" />
             </div>
           </div>
           <img

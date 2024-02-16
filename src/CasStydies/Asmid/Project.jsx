@@ -3,11 +3,11 @@ import side from "../Asmid/Assets/iPhone 13 Pro Max - Silver - Portrait.png";
 const Project = () => {
   return (
     <div className=" md:mx-44 mx-4 pt-32">
-      <div className=" md:flex block gap-8 justify-between">
+      <div className=" md:flex block gap-8 justify-between items-center">
         <div className=" md:w-[30%] w-[50%] mx-auto">
           <img className="" src={side} alt="" />
         </div>
-        <div className=" md:w-[60%] pt-7 md:pt-24">
+        <div className=" md:w-[60%] pt-7 md:pt-0">
           <h1 className=" md:text-[33px] sm:text-[25px] text-[20px] font-bold text-[#000000]">
             Project <span className=" text-[#696565]">Overview</span>
           </h1>

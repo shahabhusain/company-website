@@ -1,5 +1,5 @@
 import React from "react";
-import home from "../../assets/images/Hero.svg";
+import home from "../../assets/images/Hero.png";
 import CountUp from "react-countup";
 import { ScrollRestoration } from "react-router-dom";
 import { Variants, motion } from "framer-motion";

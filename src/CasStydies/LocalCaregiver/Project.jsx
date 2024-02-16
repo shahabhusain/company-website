@@ -7,11 +7,11 @@ const Project = () => {
         <div className=" md:w-[25%] w-[50%] mx-auto">
           <img className="" src={side} alt="" />
         </div>
-        <div className=" md:w-[60%] pt-7 md:pt-0">
+        <div className=" md:w-[60%] pt-7 md:pt-12">
           <h1 className=" md:text-[33px] sm:text-[25px] text-[20px] font-normal pt-7">
             Project <span className=" text-[#0D7592] font-bold">Overview</span>
           </h1>
-          <p className=" text-[#606060] md:text-[17px] text-[14px] font-normal">
+          <p className=" text-[#606060] md:text-[17px] text-[14px] font-normal pt-5">
             LocalCareGiver is a platform connecting caregivers with those who
             needs in-home care. Using Local Caregiver.net you can easily browse
             through caregivers profiles, read reviews and schedule appointments.
