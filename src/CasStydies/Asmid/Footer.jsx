@@ -3,7 +3,7 @@ import main from '../Asmid/Assets/detail.png'
 const Footer = () => {
   return (
     <div className=' pt-32'>
-        <img src={main} alt="" />
+        <img className='' src={main} alt="" />
     </div>
   )
 }

@@ -6,8 +6,8 @@ import btn1 from "../Asmid/Assets/Google Play Black.png";
 import { ScrollRestoration } from "react-router-dom";
 const Hero = () => {
   return (
-    <div className=" pt-[4.5rem]">
-      <div className=" bg-[#6DA8FF] pb-32 ">
+    <div className="">
+      <div className=" bg-[#6DA8FF] pb-40 ">
       <ScrollRestoration />
       <div className=" md:pt-7 pt-7 mx-4 md:mx-24">
         <div className="  md:flex block justify-between gap-16 ">

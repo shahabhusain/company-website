@@ -97,9 +97,9 @@ backdrop-filter: blur(41.54999923706055px);
   width: 100%;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 0px;
-}
+} */
 
 .back12{
   background-image: url(./CasStydies/Skiwit/Assets/skiwit.png);
@@ -149,3 +149,4 @@ backdrop-filter: blur(41.54999923706055px);
   background-size: contain;
   background-repeat: no-repeat;
 } */
+
