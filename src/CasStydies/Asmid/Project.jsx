@@ -2,7 +2,7 @@ import React from "react";
 import side from "../Asmid/Assets/iPhone 13 Pro Max - Silver - Portrait.png";
 const Project = () => {
   return (
-    <div className=" md:mx-44 mx-4 pb-32">
+    <div className=" md:mx-44 mx-4">
       <div className=" md:flex block gap-8 justify-between items-center">
         <div className=" md:w-[30%] w-[50%] mx-auto">
           <img className="" src={side} alt="" />

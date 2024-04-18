@@ -5,7 +5,7 @@ import side4 from "../Asmid/Assets/slide4.png";
 import side5 from "../Asmid/Assets/side5.png";
 const Technology = () => {
   return (
-    <div className=" md:mx-44 mx-4 flex flex-col gap-4 pb-32">
+    <div className=" md:mx-44 mx-4 flex flex-col gap-4">
       <h1 className=" text-[#1F6CDD] md:text-[47px] sm:text-[37px] text-[27px] font-bold">
         Technology{" "}
         <span className=" text-[#5e5e5e] md:text-[57px] sm:text-[37px] text-[27px] font-normal">

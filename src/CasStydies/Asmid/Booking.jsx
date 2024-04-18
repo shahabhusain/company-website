@@ -2,7 +2,7 @@ import React from 'react'
 import side from '../Asmid/Assets/777.png'
 const Booking = () => {
   return (
-    <div className=' md:mx-44 mx-4 pb-32'>
+    <div className=' md:mx-44 mx-4 '>
        <div className="md:flex block justify-between items-center">
        <div className=' md:w-[50%] w-[70%] mx-auto'>
             <img src={side} alt="" />

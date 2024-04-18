@@ -4,10 +4,10 @@ import side from "../Asmid/Assets/Group 973.png";
 import { ScrollRestoration } from "react-router-dom";
 const Hero = () => {
   return (
-    <div className="">
-      <div className=" bg-[#6DA8FF] md:pb-32 2xl:pb-96 ">
+    <div className="bg-[#6DA8FF] h-screen">
+      <div className="">
       <ScrollRestoration />
-      <div className=" md:pt-60 pt-32 mx-4 md:mx-24">
+      <div className="mx-4 md:mx-24 pt-11">
         <div className="  md:flex block justify-between gap-16 ">
           <div className=" flex flex-col gap-6 justify-center md:w-[50%]">
             <img className=" w-[122px] object-contain" src={logo} alt="" />
