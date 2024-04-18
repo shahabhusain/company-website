@@ -5,7 +5,7 @@ import Services from "../components/Home/Services";
 import Technologies from "../components/Home/Technologies";
 import RecentWork from "../components/Home/RecentWork";
 import Industries from "../components/Home/Industries";
-import Clients from "../components/Home/Clients";
+// import Clients from "../components/Home/Clients";
 import Contact from "../components/Home/Contact";
 const Home = () => {
   return (
@@ -16,7 +16,7 @@ const Home = () => {
       <Technologies />
       <RecentWork />
       <Industries />
-      <Clients />
+      {/* <Clients /> */}
       <Contact />
     </div>
   );
