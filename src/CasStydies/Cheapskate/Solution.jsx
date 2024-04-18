@@ -1,7 +1,7 @@
 import React from 'react'
 const Solution = () => {
   return (
-    <div className=' md:mx-44 mx-4 pt-32'>
+    <div className=' md:mx-44 mx-4'>
     <h1 className=' text-[#5EACF9] md:text-[32px] text-[22px] font-bold'>Solution <span className=' text-black font-normal'>We Provided</span></h1>
     <p className=' text-[#606060] font-normal md:text-[17px] text-[14px] pt-5'>Tailored to meet the demands of app challenges, our solutions excel in enhancing security, performance, and user experience, fostering a dynamic and resilient digital environment.</p>
 

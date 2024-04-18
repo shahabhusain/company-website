@@ -2,7 +2,7 @@ import React from 'react'
 import side from '../DevelopmentCenter/Assets/Frame 1000009914.png'
 const Solution = () => {
   return (
-    <div className=' md:mx-44 mx-4 pt-32'>
+    <div className=' md:mx-44 mx-4'>
     <h1 className=' text-[#0C97BD] md:text-[32px] text-[22px] font-bold'>Solution <span className=' text-black font-normal'>We Provided</span></h1>
     <p className=' text-[#606060] font-normal md:text-[17px] text-[14px] pt-5'>At the forefront of innovation, our solutions are crafted to address app challenges, providing comprehensive answers to security, performance, and user experience complexities, ensuring a seamless and forward-thinking digital landscape.</p>
 
@@ -44,7 +44,7 @@ const Solution = () => {
 
   </div>
 
-  <div className=' flex gap-4'>
+  {/* <div className=' flex gap-4'>
 <h1 className=' text-[#0C97BD] text-[20px] font-medium'>4</h1>
 <div>
     <h2 className=' text-[#0C97BD] text-[20px] font-medium'>Advanced Matching Algorithm</h2>
@@ -66,7 +66,7 @@ const Solution = () => {
     <h2 className=' text-[#0C97BD] text-[20px] font-medium'>Regular Updates and New Features</h2>
     <p className=' text-[#606060] text-[17px] font-normal'>To keep users engaged, Development Central should regularly update the application with new features and improvements. Listening to user feedback and implementing relevant changes will help maintain interest and attract new users.</p>
 </div>
-</div>
+</div> */}
 
 </div>
   )

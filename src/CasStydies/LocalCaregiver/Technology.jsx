@@ -8,9 +8,9 @@ const Technology = () => {
   return (
     <div className=" ">
       <div className=" md:mx-32 mx-4 flex flex-col gap-4 pt-6  pb-7 px-7 rounded-[20px] bg-white">
-        <h1 className=" text-[#000] md:text-[37px] sm:text-[37px] text-[27px] font-bold">
+        <h1 className=" text-[#000] md:text-[47px] sm:text-[37px] text-[27px] font-bold">
           Technology{" "}
-          <span className=" text-black md:text-[47px] sm:text-[37px] text-[27px] font-normal">
+          <span className=" text-black md:text-[57px] sm:text-[37px] text-[27px] font-normal">
             Used
           </span>
         </h1>

@@ -2,16 +2,16 @@ import React from "react";
 import side from "../DevelopmentCenter/Assets/iPhone 12 Pro Max.png";
 const Project = () => {
   return (
-    <div className=" md:mx-44 mx-4 pt-32">
+    <div className=" md:mx-44 mx-4">
       <div className=" md:flex block justify-between items-center">
         <div className=" md:w-[30%] w-[50%] mx-auto">
           <img className="" src={side} alt="" />
         </div>
         <div className=" md:w-[60%] pt-7 md:pt-0">
-          <h1 className=" md:text-[33px] sm:text-[25px] text-[20px] font-normal">
+          <h1 className=" md:text-[43px] sm:text-[25px] text-[20px] font-normal">
             Project <span className=" text-[#0C97BD] font-bold">Overview</span>
           </h1>
-          <p className=" text-[#606060] md:text-[17px] text-[14px] font-normal">
+          <p className=" text-[#606060] md:text-[22px] text-[14px] font-normal">
             Experience the groundbreaking 'Development Centre'—your ultimate
             destination for personalized learning for both your child and
             yourself. Our platform offers a seamless booking system, empowering

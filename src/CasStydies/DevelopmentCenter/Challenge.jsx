@@ -2,7 +2,7 @@ import React from 'react'
 import side from '../DevelopmentCenter/Assets/Frame 1000009913.png'
 const Challenge = () => {
   return (
-    <div className=' md:mx-44 mx-4 pt-32'>
+    <div className=' md:mx-44 mx-4'>
         <h1 className=' text-[#0C97BD] md:text-[32px] text-[22px] font-bold'>Challenges <span className=' text-black font-normal'>We Face</span></h1>
         <p className=' text-[#606060] font-normal md:text-[17px] text-[14px] pt-5'>Navigating app challenges demands adept handling of security, performance, and user experience intricacies, ensuring a seamless and innovative digital landscape.</p>
 
@@ -43,7 +43,7 @@ const Challenge = () => {
 
       </div>
 
-      <div className=' flex gap-4'>
+      {/* <div className=' flex gap-4'>
     <h1 className=' text-[#0C97BD] text-[20px] font-medium'>4</h1>
     <div>
         <h2 className=' text-[#0C97BD] text-[20px] font-medium'>Matching Coaches with Diverse Needs</h2>
@@ -57,7 +57,7 @@ const Challenge = () => {
         <h2 className=' text-[#0C97BD] text-[20px] font-medium'>Maintaining User Engagement</h2>
         <p className=' text-[#606060] text-[17px] font-normal'>To sustain the application’s success, it is essential to keep both coaches and parents engaged regularly. This can be challenging, as users may have different levels of commitment or time constraints, affecting the frequency of usage.</p>
     </div>
-</div>
+</div> */}
 
     </div>
   )

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Solution = () => {
   return (
-    <div className=' md:mx-44 mx-4 pt-32 '>
+    <div className=' md:mx-44 mx-4 '>
         <h1 className=' md:text-[32px] sm:text-[32px] text-[22px] font-[600] text-[#EF6A1F]'>Solution <span className=' font-medium text-black'>We Provided</span></h1>
         <p className=' text-[#606060] md:text-[17px] text-[13px] font-normal'>We deliver streamlined solutions, enhancing app development by seamlessly addressing security, performance, and user experience challenges, keeping pace with evolving technology and user expectations.</p>
 

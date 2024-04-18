@@ -6,9 +6,9 @@ import btn1 from '../WinnerWin/Assets/Button (1).png'
 import { ScrollRestoration } from "react-router-dom";
 const Hero = () => {
   return (
-    <div className=" bg-black pb-32">
+    <div className=" bg-black h-screen">
       <ScrollRestoration />
-      <div className=" md:pt-7 pt-7 mx-4 md:mx-24">
+      <div className=" md:pt-24 pt-7 mx-4 md:mx-24">
         <div className="  md:flex block justify-between ">
           <div className=" flex flex-col gap-6 justify-center">
             <img className=" w-[92px] h-[93px]" src={logo} alt="" />

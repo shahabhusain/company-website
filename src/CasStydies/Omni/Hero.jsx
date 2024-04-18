@@ -6,7 +6,7 @@ import btn1 from '../Omni/Assets/Button (1).png'
 import { ScrollRestoration } from 'react-router-dom'
 const Hero = () => {
   return (
-    <div className=' md:pt-12 pt-20 bg-[#F8F8F8]'>
+    <div className=' bg-[#F8F8F8]'>
       <ScrollRestoration />
         <div className='  md:flex block justify-between '>
         <div className=' flex flex-col gap-8 md:ml-24 mx-4 justify-center  md:relative md:bottom-16'>

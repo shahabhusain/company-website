@@ -6,9 +6,9 @@ import side4 from '../Omni/Assets/side4.png'
 import side5 from '../Omni/Assets/side5.png'
 const Technology = () => {
   return (
-    <div className=' md:mx-24 mx-4 flex flex-col gap-4 pt-14'>
-        <h1 className=' text-[#EF6A1F] md:text-[37px] sm:text-[37px] text-[27px] font-bold'>Technology <span className=' text-black md:text-[47px] sm:text-[37px] text-[27px] font-normal'>Used</span></h1>
-        <p className=' md:text-[17px] text-[12px] text-[#606060] font-normal'>For the omni project, several technologies are used to create a seamless and robust experience for users. These technologies include:</p>
+    <div className=' md:mx-24 mx-4 flex flex-col gap-4'>
+        <h1 className=' text-[#EF6A1F] md:text-[47px] sm:text-[37px] text-[27px] font-bold'>Technology <span className=' text-black md:text-[57px] sm:text-[37px] text-[27px] font-normal'>Used</span></h1>
+        <p className=' md:text-[22px] text-[12px] text-[#606060] font-normal'>For the omni project, several technologies are used to create a seamless and robust experience for users. These technologies include:</p>
         <div className=' grid md:grid-cols-5 sm:grid-cols-2 grid-cols-1 md:pt-16 gap-4 md:mx-0 mx-auto '>
             <div className=' flex flex-col items-center justify-center gap-3'>
                 <img src={side1} alt="" />

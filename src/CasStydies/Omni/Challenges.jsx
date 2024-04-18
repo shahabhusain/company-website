@@ -2,7 +2,7 @@ import React from 'react'
 
 const Challenges = () => {
   return (
-    <div className=' md:mx-44 mx-4 pt-32 '>
+    <div className=' md:mx-44 mx-4 '>
         <h1 className=' md:text-[32px] sm:text-[32px] text-[22px] font-[600] text-[#EF6A1F]'>Challenges <span className=' font-medium text-black'>We Face</span></h1>
         <p className=' text-[#606060] md:text-[17px] text-[13px] font-normal'>App developers grapple with ongoing challenges in security, performance, and user experience, navigating the dynamic terrain of technology and user expectations.</p>
 

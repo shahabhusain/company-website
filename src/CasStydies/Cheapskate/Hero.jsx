@@ -4,10 +4,10 @@ import side from "../Cheapskate/Assets/Frame 1000002609.png";
 import { ScrollRestoration } from "react-router-dom";
 const Hero = () => {
   return (
-    <div className=" pb-32 pt-[73px] ">
+    <div className=" ">
       <ScrollRestoration />
-      <div className="   balo w-full pb-32">
-        <div className="  md:flex block justify-between gap-16 mx-4 md:mx-24 ">
+      <div className="   balo w-full h-screen">
+        <div className="  md:flex block justify-between gap-16 mx-4 md:mx-24 pt-24 ">
           <div className=" flex flex-col gap-4 justify-center md:w-[50%]">
             <img className=" w-[192px] object-contain" src={logo} alt="" />
             <div>
@@ -28,7 +28,7 @@ const Hero = () => {
             </h1>
           </div>
           <img
-            className=" md:max-w-[555px] object-contain md:pt-0 pt-10"
+            className=" w-[50%]"
             src={side}
             alt=""
           />

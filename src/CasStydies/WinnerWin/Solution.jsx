@@ -1,7 +1,7 @@
 import React from "react";
 const Solution = () => {
   return (
-    <div className=" md:mx-44 mx-4 pt-32">
+    <div className=" md:mx-44 mx-4">
       <h1 className=" text-[#000] md:text-[32px] text-[22px] font-bold">
         Solution <span className=" text-black font-normal">We Provided</span>
       </h1>

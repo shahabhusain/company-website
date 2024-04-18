@@ -2,7 +2,7 @@ import React from 'react'
 
 const Solution = () => {
   return (
-    <div className=' md:mx-44 mx-4 pt-32 '>
+    <div className=' md:mx-44 mx-4 '>
     <h1 className=' md:text-[37px] sm:text-[32px] text-[22px] font-[700] text-[#B99762]'>Solution <span className=' font-medium text-black'>We Provided</span></h1>
     <p className=' text-[#606060] md:text-[17px] text-[13px] font-normal'>The objective of the problem statement is to highlight the deficiencies or challenges within the existing system that need to be addressed.</p>
 

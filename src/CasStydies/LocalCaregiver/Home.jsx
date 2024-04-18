@@ -6,11 +6,11 @@ import btn1 from "../../CasStydies/LocalCaregiver/Assets/Button (1).png";
 import { ScrollRestoration } from "react-router-dom";
 const Home = () => {
   return (
-    <div className=" local">
-      <div className="pt-24">
+    <div className=" bg-[#189bff1c] h-screen">
+      <div className="pt-12">
       <ScrollRestoration />
         <div className=" md:flex block  justify-between items-center gap-24 md:mx-24 mx-4 md:pt-0 pt-16 ">
-          <div className=" ">
+          <div className="  ">
             <img className=" w-[131px]" src={logo} alt="logo" />
           <div>
               <p className=" rounded-md mt-4 py-2 px-5 md:text-[35px] text-[29px] font-[500] text-[#0D7592]  border-[2px] border-[#EF6A1F]">

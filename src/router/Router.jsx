@@ -22,8 +22,9 @@ export const router = createBrowserRouter(
     <Route path="/" element={<RootLayout />}>
       <Route index element={<Home />} />
       {/* <Route path="/about" element={<About />} /> */}
+      <Route path="/recent" element={<RecentWork />} />
     </Route>
-    <Route path="/recent" element={<RecentWork />} />
+    
       <Route path="/winner" element={<Winnerwin />} />
       <Route path="/local" element={<Local />} />
       <Route path="/skiwit" element={<Skiwit />} />

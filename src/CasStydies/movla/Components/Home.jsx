@@ -6,9 +6,10 @@ import btn1 from "../Assets/Button (1).png";
 import { ScrollRestoration } from "react-router-dom";
 const Home = () => {
   return (
-    <div className=" pb-80 md:pt-20 pt-16">
+  <div className="  h-screen ">
+     <div className=" ">
       <ScrollRestoration />
-      <div className=" md:flex block  justify-between items-center gap-24 md:mx-24 mx-4 md:pt-0 pt-16 ">
+      <div className=" md:flex block pt-12   gap-52 items-center  ">
         <div className=" ">
           <img className=" w-[131px]" src={logo} alt="logo" />
           <p className=" md:w-[374px] rounded-md mt-4 py-2 px-5 md:text-[35px] text-[29px] font-[500] text-[#B99762] bg-[#f0e7d9]">
@@ -31,6 +32,8 @@ const Home = () => {
         </div>
       </div>
     </div>
+
+  </div> 
   );
 };
 
