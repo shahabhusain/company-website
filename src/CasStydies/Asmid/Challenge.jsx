@@ -1,7 +1,7 @@
 import React from "react";
 const Challenge = () => {
   return (
-    <div className=" md:mx-44 mx-4">
+    <div className=" md:mx-44 mx-4 pb-32">
       <h1 className=" text-[#1D67D5] md:text-[42px] text-[22px] font-bold">
         Challenges <span className=" text-black font-normal">We Face</span>
       </h1>

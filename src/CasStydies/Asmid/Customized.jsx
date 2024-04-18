@@ -2,7 +2,7 @@ import React from "react";
 import side from "../Asmid/Assets/Gr.png";
 const Customized = () => {
   return (
-    <div className=" md:mx-44 mx-4">
+    <div className=" md:mx-44 mx-4 pb-32">
       <div className="md:flex block justify-between items-center">
         <div className=" md:w-[45%] md:pt-0 pt-8">
           <h1 className="text-[#1D67D5] md:text-[43px] text-[22px] font-bold">
