@@ -7,9 +7,9 @@ import { ScrollRestoration } from "react-router-dom";
 const Hero = () => {
   return (
     <div className="">
-      <div className=" bg-[#6DA8FF] pb-40 ">
+      <div className=" bg-[#6DA8FF] md:pb-32 2xl:pb-72 ">
       <ScrollRestoration />
-      <div className=" md:pt-7 pt-7 mx-4 md:mx-24">
+      <div className=" md:pt-32 pt-32 mx-4 md:mx-24">
         <div className="  md:flex block justify-between gap-16 ">
           <div className=" flex flex-col gap-6 justify-center md:w-[50%]">
             <img className=" w-[122px] object-contain" src={logo} alt="" />
